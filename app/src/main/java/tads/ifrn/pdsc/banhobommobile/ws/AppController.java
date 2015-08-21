@@ -1,4 +1,4 @@
-package tads.ifrn.pdsc.banhobommobile;
+package tads.ifrn.pdsc.banhobommobile.ws;
 
 import android.app.Application;
 import android.text.TextUtils;

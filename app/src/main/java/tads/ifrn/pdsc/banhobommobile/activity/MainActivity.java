@@ -1,11 +1,9 @@
-package tads.ifrn.pdsc.banhobommobile;
+package tads.ifrn.pdsc.banhobommobile.activity;
 
 import android.app.ProgressDialog;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -20,6 +18,9 @@ import com.android.volley.toolbox.JsonArrayRequest;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import tads.ifrn.pdsc.banhobommobile.ws.AppController;
+import tads.ifrn.pdsc.banhobommobile.R;
 
 
 public class MainActivity extends ActionBarActivity {
