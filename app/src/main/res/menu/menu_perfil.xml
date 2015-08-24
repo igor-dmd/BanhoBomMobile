@@ -2,6 +2,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="tads.ifrn.pdsc.banhobommobile.activity.PerfilActivity">
+
     <item android:id="@+id/action_settings" android:title="@string/action_settings"
         android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_mapa" android:title="Mapa" android:icon="@drawable/ic_location_on_black_24dp"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_historico" android:title="Historico" android:icon="@drawable/ic_trending_up_black_24dp"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_clima" android:title="Clima" android:icon="@drawable/ic_cloud_queue_black_24dp"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_info" android:title="Info" android:icon="@drawable/ic_info_black_24dp"
+        app:showAsAction="always" />
+
 </menu>

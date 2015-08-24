@@ -41,7 +41,19 @@
         </activity>
         <activity
             android:name=".activity.PerfilActivity"
-            android:label="@string/title_activity_perfil" >
+            android:label="@string/titulomenu" >
+        </activity>
+        <activity
+            android:name=".activity.HistoricoActivity"
+            android:label="@string/titulomenu" >
+        </activity>
+        <activity
+            android:name=".activity.ClimaActivity"
+            android:label="@string/titulomenu" >
+        </activity>
+        <activity
+            android:name=".activity.InfoActivity"
+            android:label="@string/titulomenu" >
         </activity>
     </application>
 
